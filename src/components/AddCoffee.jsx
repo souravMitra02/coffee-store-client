@@ -62,7 +62,7 @@ const AddCoffee = () => {
         </div>
 
         <form onSubmit={handleAddCoffee}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 ">
             {/* Name */}
             <fieldset className="fieldset rounded-box">
               <label className="label text-lg">Name</label>
@@ -79,7 +79,7 @@ const AddCoffee = () => {
               <label className="label text-lg">Price</label>
               <input
                 type="text"
-                name="chef"
+                name="price"
                 className="input w-full border-none focus:outline-0"
                 placeholder="Enter coffee Price"
               />
