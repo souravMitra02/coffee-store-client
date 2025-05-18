@@ -12,7 +12,7 @@ const Header = () => {
                 <img className='w-12' src={logo} alt="" />
                 <h2 className='font-rancho text-3xl'>Espresso Emporium</h2>
                 </div>    
-           <Banner></Banner>
+          
         </div> 
     );
 };
