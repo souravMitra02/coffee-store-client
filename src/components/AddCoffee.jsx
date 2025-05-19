@@ -37,7 +37,7 @@ const AddCoffee = () => {
     <div
       style={{
         backgroundImage: `url(${banner})`,
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundPosition: "center",
       }}
       className="px-4 md:px-10 lg:px-20 py-10"
